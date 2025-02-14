@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import '../styles/ImageSlider.css'; 
-import '../assets/image1.png';
-import "../assets/image2.jpg";
-import "../assets/image3.jpg";
-import "../assets/image4.jpg";
-import "../assets/image5.jpg";
-import '../assets/vecteezy_human-interactive-tech-interaction-images-of-robot-human_6552210.svg';
+import image1 from '../assets/image1.png';
+import image2 from"../assets/image2.jpg";
+import image3 from"../assets/image3.jpg";
+import image4 from "../assets/image4.jpg";
+import image5 from "../assets/image5.jpg";
+
 
 const images = [
-  "./Users/veerendrac/Documents/source code/react-ssg/Redux/src/assets/vecteezy_human-interactive-tech-interaction-images-of-robot-human_6552210.svg",
-  "/image2.jpg",
-  "/image3.jpg",
-  "/image4.jpg",
-  "/image5.jpg",
+  image1,
+  image2,
+  image3,
+  image4,
+  image5
 ];
 
 export default function ImageSlider() {
