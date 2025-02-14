@@ -1,0 +1,29 @@
+.join{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.login{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+.login-container{
+    height: 60%;
+    width: 60%;
+    background-color: rgba(216, 191, 216, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
